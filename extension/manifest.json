@@ -1,0 +1,15 @@
+{
+  "name": "Influencer Median",
+  "description": "Shows median views of last 10 posts on TikTok or Instagram.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": [
+    "https://www.tiktok.com/*",
+    "https://www.instagram.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Median Views"
+  }
+}
